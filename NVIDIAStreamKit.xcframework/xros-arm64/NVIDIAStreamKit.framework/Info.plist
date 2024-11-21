@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>22G320</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>NVIDIAStreamKit</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nvidia.StreamKit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NVIDIAStreamKit</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>XROS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>254</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>21N5295a</string>
+	<key>DTPlatformName</key>
+	<string>xros</string>
+	<key>DTPlatformVersion</key>
+	<string>1.0</string>
+	<key>DTSDKBuild</key>
+	<string>21N5295a</string>
+	<key>DTSDKName</key>
+	<string>xros1.0</string>
+	<key>DTXcode</key>
+	<string>1510</string>
+	<key>DTXcodeBuild</key>
+	<string>15C5059c</string>
+	<key>GitRev</key>
+	<string>c19ebd7</string>
+	<key>MinimumOSVersion</key>
+	<string>1.0</string>
+	<key>P4Version</key>
+	<string>rel/gs_04_68#head@34849444</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>7</integer>
+	</array>
+</dict>
+</plist>
