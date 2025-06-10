@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CloudXRKit-Swift.h</key>
 		<data>
-		Sc1bEQN+bctilinAgIo8UJ6tgfc=
+		f9k5sKIltSMAM4QqW+dFT4Cs2T0=
 		</data>
 		<key>Headers/CloudXRKit.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8IgoN4WiM2Uuho9u9m4iRtpBriw=
+		VBfowU99wgIi6NJNrHvYJ8AaokA=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		nGvuzCxrbdOU/5zyvIdJ070G7qU=
+		t8CeVBEHVQ1ZqmkegcSe8btUiVQ=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		chDwu+hsKx79OIr137YJ4J8YaeE=
+		VVL/xvmwI0/igOX5Sroka1u0FCM=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		nGvuzCxrbdOU/5zyvIdJ070G7qU=
+		t8CeVBEHVQ1ZqmkegcSe8btUiVQ=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		v6af/pJ9GVPiRp7fqVACsSY9iY0=
+		umQ5FmAWOaT6YO9UW4OB5HTC4vQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,6 +43,10 @@
 		<key>Modules/module.private.modulemap</key>
 		<data>
 		CJBuhkbXjcrf9MzYLIqKdebPIyo=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		H8mW8TAgls+4lqPAOxs60WB2rAA=
 		</data>
 		<key>PrivateHeaders/CloudXRCommon.h</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>PrivateHeaders/FrameKernels.h</key>
 		<data>
-		vQBicuum3MnAW3qkVv5SxzHGwYs=
+		1yBqSDTHlyRTAZ3q/L1V1JxfBhw=
 		</data>
 		<key>PrivateHeaders/MockFrameShaders.h</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		Io7hk4EZWlWKB6JGbQTP/CPxuy8=
+		dTYu4u2TG6aGJ8katWwHv9j2EXY=
 		</data>
 		<key>ship_large.mtl</key>
 		<data>
@@ -87,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O2Nb+Vbdjaa0NYcHcfw9FvjL9HtkF7AwArJpE4euZKs=
+			kZqJNeQ41RKyRf6ciW39rhSlG5YEkr4TSH9vngTNI6A=
 			</data>
 		</dict>
 		<key>Headers/CloudXRKit.h</key>
@@ -108,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/40w692WsiOZypSQpAFTqh3eJPwLSQ2zyUh+q4MmQc=
+			h16YvNC7fQyrd/rOOSJeTGNHmkEPqZcHYSQJ5K/Elec=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O25ktb3zRxjxfupjNwkGyFHfb4QQRVBYSPkP3Mr7WkA=
+			MKCXv1TBOgqHzh2w5En28SD9tyFGkPdhQxfvxcSvd40=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/40w692WsiOZypSQpAFTqh3eJPwLSQ2zyUh+q4MmQc=
+			h16YvNC7fQyrd/rOOSJeTGNHmkEPqZcHYSQJ5K/Elec=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5v7x5PPXgL0x/YDYGHn+W2Rus3PDLkX643V//W6NNM=
+			GlSjABAy10loiI4s1rQasZBynWuR+DvafpI2k/Y8icI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,6 +148,13 @@
 			<key>hash2</key>
 			<data>
 			6cdlpFtQscfYERAmHLOFf4llUZoUSaodryBC3jnzkA8=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+iPfKsOoIXWqlQqD+I+IQpChOr0PivYKxY9SZWlTtDY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/CloudXRCommon.h</key>
@@ -164,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KLQibHRPfupp3b+vucqdCNtAUyRlXjpO7QA69Ot7F5w=
+			6tmXMS953vUeM9Qj3QdQo9fLlWXF2CzzFc73jXdMyD0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MockFrameShaders.h</key>
@@ -192,7 +203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			77hhY5o8YuR/NtzOTxaSEWJffemAA/Yj/JFdWUntlEY=
+			GJwrM/+JFk1NxeZmGufZoPy6Ke7SBMt7BIACrK5Fp/I=
 			</data>
 		</dict>
 		<key>ship_large.mtl</key>

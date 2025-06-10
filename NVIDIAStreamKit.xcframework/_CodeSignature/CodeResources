@@ -4,13 +4,181 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Assets.car</key>
+		<data>
+		sN80FrnBeBeDfqvKhHFgwZmkKsk=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Base.lproj/NSKStreamLoadingViewController~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOyRmckxa2pxD0kZAA8WP3vu2FA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Info.plist</key>
+		<data>
+		8t4X3P8MGOZGDoPbF7olTIKOvkE=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKGamepadView~ios.nib</key>
+		<data>
+		hat+zcN1I5Wru/pc+BUG2skVlT0=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
+		<data>
+		j40lcDTLriFaz2nHVSQA54TnNsU=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/VersionInfo.plist</key>
+		<data>
+		+qDjb71JkZqBjB+eK8Wqd1yZaws=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
+		<data>
+		XlyNb2juM+s19b/jCorfSYU91XY=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/default.metallib</key>
+		<data>
+		8aBzMAvvuXmUAIICwV80BNA7R+A=
+		</data>
+		<key>ios-arm64/NVIDIAStreamKit.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KTDijCmJH4QMGZ/5KOrg3V9xiZU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/ja.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OV+sGG7et81uOM1KKQQuRQKbl74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vil7EQMZPul7xRGHtjBDB955/Qg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/zh-Hant.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aeKakEVYhPMJ16b5O0dOvm+J888=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Assets.car</key>
+		<data>
+		sN80FrnBeBeDfqvKhHFgwZmkKsk=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Base.lproj/NSKStreamLoadingViewController~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOyRmckxa2pxD0kZAA8WP3vu2FA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Info.plist</key>
+		<data>
+		6aOy6G6OCng/q3t5DgKPp70RxUw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKGamepadView~ios.nib</key>
+		<data>
+		hat+zcN1I5Wru/pc+BUG2skVlT0=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
+		<data>
+		j40lcDTLriFaz2nHVSQA54TnNsU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/VersionInfo.plist</key>
+		<data>
+		+qDjb71JkZqBjB+eK8Wqd1yZaws=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
+		<data>
+		OT5nuG80QlfbYMbl+fAC2nUiWYs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		XrLSj57mBRimEIbAFCvOE5Dx23Q=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/default.metallib</key>
+		<data>
+		ySCedVltXuvebBWHFT98EVmJotQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KTDijCmJH4QMGZ/5KOrg3V9xiZU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/ja.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OV+sGG7et81uOM1KKQQuRQKbl74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vil7EQMZPul7xRGHtjBDB955/Qg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/zh-Hant.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aeKakEVYhPMJ16b5O0dOvm+J888=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>xros-arm64/NVIDIAStreamKit.framework/Assets.car</key>
 		<data>
-		pOy6vAplLVgleyEJNjDEBNNUYzs=
+		vTEEpQ6Du4EuzKsplPasuyUMmkE=
 		</data>
 		<key>xros-arm64/NVIDIAStreamKit.framework/Info.plist</key>
 		<data>
-		GNUbbULsH8vsQcpFy50sO5VM/KE=
+		gNU8BwGAS543W11icGP76qf6uEY=
 		</data>
 		<key>xros-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
 		<data>
@@ -22,7 +190,7 @@
 		</data>
 		<key>xros-arm64/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
 		<data>
-		Oq9ICFqcxlgajVDvC77nf5GrCiE=
+		k283dcBa3TDdpSemI4DVyFc2FG8=
 		</data>
 		<key>xros-arm64/NVIDIAStreamKit.framework/default.metallib</key>
 		<data>
@@ -57,11 +225,11 @@
 		</dict>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Assets.car</key>
 		<data>
-		PZGDz3txQ3KAO6xYUJ5EyhagPs4=
+		vTEEpQ6Du4EuzKsplPasuyUMmkE=
 		</data>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Info.plist</key>
 		<data>
-		Nwl6goDCftoiz47wyKANMdRhqcw=
+		fTdvtmaTHrbSeZVVxm87AmB2w1g=
 		</data>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
 		<data>
@@ -73,11 +241,11 @@
 		</data>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
 		<data>
-		qCl433GNKSzXBw3JEVlOicDC9qY=
+		YCq3rhgahDxeKCUJGr9b7bkWlKs=
 		</data>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		LSmnXbfwSlyAE0G6qOA9tUP1qIQ=
+		6eIOsCX1heWBPwaBxNnD+QgWAak=
 		</data>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/default.metallib</key>
 		<data>
@@ -113,26 +281,347 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sN80FrnBeBeDfqvKhHFgwZmkKsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			JmWizfCA8KE0dkwsxMEQREUPA8rJavXzJTUnOR+niaM=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Base.lproj/NSKStreamLoadingViewController~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOyRmckxa2pxD0kZAA8WP3vu2FA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nw4jlTRgB//quscxGfN6KMYJvneiC/H/e2IZ7Q2VyUI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8t4X3P8MGOZGDoPbF7olTIKOvkE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gS/xg0XNT2eKEwj6ruIoyO6fr8RLSLtErYIciSuz278=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKGamepadView~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hat+zcN1I5Wru/pc+BUG2skVlT0=
+			</data>
+			<key>hash2</key>
+			<data>
+			GmJLh+x1yT/BTeJXvFXooAV8WABwRU/OOmQXeC3eZY0=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j40lcDTLriFaz2nHVSQA54TnNsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			l5KvChDz1yMRmCgvKu3LoWznPMQZeqSZLwMRjnwg2cY=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+qDjb71JkZqBjB+eK8Wqd1yZaws=
+			</data>
+			<key>hash2</key>
+			<data>
+			MdptrfLmPunwFMJOCZz2+1ETNw0sBd+ZX4x3Rx0LH8g=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XlyNb2juM+s19b/jCorfSYU91XY=
+			</data>
+			<key>hash2</key>
+			<data>
+			VZjf/JDO3sR7MBSay7utg+0XHN01xTWy4vQk6n3x6Ac=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/default.metallib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8aBzMAvvuXmUAIICwV80BNA7R+A=
+			</data>
+			<key>hash2</key>
+			<data>
+			uvmhXM5KjU957YGv+wzEW8FuzEEKU33G1L7OjJVZWhI=
+			</data>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KTDijCmJH4QMGZ/5KOrg3V9xiZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			q2KgZRjg3H79yrGtCWNHO3A36smvgIJsPnNq4i1Ok+I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/ja.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OV+sGG7et81uOM1KKQQuRQKbl74=
+			</data>
+			<key>hash2</key>
+			<data>
+			0+PtoNZdmecTkKR7P5xsce4WrX3wQTj6kIbImTpeG20=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vil7EQMZPul7xRGHtjBDB955/Qg=
+			</data>
+			<key>hash2</key>
+			<data>
+			6ggRFde7ZJk/LZFtpBabLewigQHonUOsg+x++XJjm/w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64/NVIDIAStreamKit.framework/zh-Hant.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aeKakEVYhPMJ16b5O0dOvm+J888=
+			</data>
+			<key>hash2</key>
+			<data>
+			rO185FZ0xDuNFcqrHaxAiLR13f8wwXN5NrM+3WgpCX8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sN80FrnBeBeDfqvKhHFgwZmkKsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			JmWizfCA8KE0dkwsxMEQREUPA8rJavXzJTUnOR+niaM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Base.lproj/NSKStreamLoadingViewController~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fOyRmckxa2pxD0kZAA8WP3vu2FA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nw4jlTRgB//quscxGfN6KMYJvneiC/H/e2IZ7Q2VyUI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6aOy6G6OCng/q3t5DgKPp70RxUw=
+			</data>
+			<key>hash2</key>
+			<data>
+			rFGm0+Y+6dvuBL2bBcHIXqsoDmLkgF13mGG8Rrej6O4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKGamepadView~ios.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hat+zcN1I5Wru/pc+BUG2skVlT0=
+			</data>
+			<key>hash2</key>
+			<data>
+			GmJLh+x1yT/BTeJXvFXooAV8WABwRU/OOmQXeC3eZY0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j40lcDTLriFaz2nHVSQA54TnNsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			l5KvChDz1yMRmCgvKu3LoWznPMQZeqSZLwMRjnwg2cY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+qDjb71JkZqBjB+eK8Wqd1yZaws=
+			</data>
+			<key>hash2</key>
+			<data>
+			MdptrfLmPunwFMJOCZz2+1ETNw0sBd+ZX4x3Rx0LH8g=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NVIDIAStreamKit</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OT5nuG80QlfbYMbl+fAC2nUiWYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			pLK44ATDreNnFppKdTzfCSPOCtXvWzCLdzwhc+xXpdM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XrLSj57mBRimEIbAFCvOE5Dx23Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			feCZ7WBP6Xb5gXsEsbkwKR/aTOmgONR1HH8hjnaCXb4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/default.metallib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ySCedVltXuvebBWHFT98EVmJotQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			fs+tQRKpD7U52vZuZMIwc2O0svJ1dRGx+33Y18/ZBmQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>hash2</key>
+			<data>
+			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KTDijCmJH4QMGZ/5KOrg3V9xiZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			q2KgZRjg3H79yrGtCWNHO3A36smvgIJsPnNq4i1Ok+I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/ja.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OV+sGG7et81uOM1KKQQuRQKbl74=
+			</data>
+			<key>hash2</key>
+			<data>
+			0+PtoNZdmecTkKR7P5xsce4WrX3wQTj6kIbImTpeG20=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vil7EQMZPul7xRGHtjBDB955/Qg=
+			</data>
+			<key>hash2</key>
+			<data>
+			6ggRFde7ZJk/LZFtpBabLewigQHonUOsg+x++XJjm/w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NVIDIAStreamKit.framework/zh-Hant.lproj/NSKStreamLoadingViewController~ios.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aeKakEVYhPMJ16b5O0dOvm+J888=
+			</data>
+			<key>hash2</key>
+			<data>
+			rO185FZ0xDuNFcqrHaxAiLR13f8wwXN5NrM+3WgpCX8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>xros-arm64/NVIDIAStreamKit.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pOy6vAplLVgleyEJNjDEBNNUYzs=
+			vTEEpQ6Du4EuzKsplPasuyUMmkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ch8KsITA7ShhIAcJgfg1/2OYzcofd/nay599SHY2cPA=
+			3WA8eJs9P6vxL8yW6bLVv2LT5HCyu7Dm9piCnEW9lB4=
 			</data>
 		</dict>
 		<key>xros-arm64/NVIDIAStreamKit.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GNUbbULsH8vsQcpFy50sO5VM/KE=
+			gNU8BwGAS543W11icGP76qf6uEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9jS60PFSYIzdOdYR9QQzdbMK6UhpwWWbFAYs+UzEB9A=
+			J2PGlAUGU0nj4Nm89fP8ETqFmp9N+QYIto8qGxMcdYA=
 			</data>
 		</dict>
 		<key>xros-arm64/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
@@ -161,11 +650,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Oq9ICFqcxlgajVDvC77nf5GrCiE=
+			k283dcBa3TDdpSemI4DVyFc2FG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			iwfRKrDQDhoBpjjbjRucvLUnozOkYMG81cpFkYoHSrM=
+			EJTQmYeIPub8TD2jbZlCcl4xo8hjJcs8Ppc0qLLIVFg=
 			</data>
 		</dict>
 		<key>xros-arm64/NVIDIAStreamKit.framework/default.metallib</key>
@@ -222,22 +711,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PZGDz3txQ3KAO6xYUJ5EyhagPs4=
+			vTEEpQ6Du4EuzKsplPasuyUMmkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			l/WT766qa1hJO5QCnBC1m3iQJ59NCXA2IDRIvXPhUIk=
+			3WA8eJs9P6vxL8yW6bLVv2LT5HCyu7Dm9piCnEW9lB4=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nwl6goDCftoiz47wyKANMdRhqcw=
+			fTdvtmaTHrbSeZVVxm87AmB2w1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			OyBW8G85pJtup1NhwZ/XLqfyjgd3sz/zKsGCm6Q/XOM=
+			tfXj/SfG5vzZaBXJOkOiDNzc/lWKySWVh5NyB1PB1NU=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/NSKImageDB.momd/GFNImageDB.mom</key>
@@ -266,22 +755,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qCl433GNKSzXBw3JEVlOicDC9qY=
+			YCq3rhgahDxeKCUJGr9b7bkWlKs=
 			</data>
 			<key>hash2</key>
 			<data>
-			9NLunA/A8yHZCZMIrlhUpSD9x+aH3yF1V+MIiveW/es=
+			7l0YURBvwqZqok3EkNYlmf9eYXxyN0z6FzDOILsDnHE=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LSmnXbfwSlyAE0G6qOA9tUP1qIQ=
+			6eIOsCX1heWBPwaBxNnD+QgWAak=
 			</data>
 			<key>hash2</key>
 			<data>
-			+s8Edbfw6ixZyZj3lZaqtXipNEpOYvWcYNQJ/u2JE5w=
+			jNYhJCeSRdBtaFoDlYmM8ngiH20QHfzFJA9GXTWN4Zo=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/NVIDIAStreamKit.framework/default.metallib</key>

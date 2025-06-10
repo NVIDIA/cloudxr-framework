@@ -1,0 +1,424 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "oneOf": [
+        {
+            "$ref": "#/definitions/events/CXR_LifetimeEvent"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_SessionConfiguration"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_SessionState"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_ClientRequest"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_ServerResponse"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_ExceptionInfo"
+        },
+        {
+            "$ref": "#/definitions/events/CXR_ClientMetricEvent"
+        }
+    ],
+    "schemaMeta": {
+        "schemaVersion": "2.0",
+        "clientId": "86016923530084393",
+        "clientName": "CloudXR",
+        "definitionVersion": "1.0"
+    },
+    "description": "Telemetry events json schema for CloudXR",
+    "definitions": {
+        "types": {
+            "BooleanType": {
+                "type": "string",
+                "enum": [
+                    "Undefined",
+                    "True",
+                    "False"
+                ]
+            },
+            "Float": {
+                "type": "number",
+                "maximum": 3.4028234663852886e+38,
+                "minimum": -3.4028234663852886e+38
+            },
+            "Counter": {
+                "type": "integer",
+                "maximum": 999999999999990000,
+                "minimum": -99999999999990000
+            },
+            "Double": {
+                "type": "number",
+                "maximum": 1.7976931348623157e+308,
+                "minimum": -1.7976931348623157e+308
+            },
+            "Int32": {
+                "type": "integer",
+                "maximum": 2147483647,
+                "minimum": -2147483648
+            },
+            "Uint16": {
+                "type": "integer",
+                "maximum": 65535,
+                "minimum": 0
+            },
+            "Uint32": {
+                "type": "integer",
+                "maximum": 4294967295,
+                "minimum": 0
+            },
+            "String": {
+                "type": "string"
+            },
+            "CXRModuleName": {
+                "description": "Module generating the event",
+                "type": "string",
+                "enum": [
+                    "Unknown",
+                    "CloudXrApple"
+                ]
+            },
+            "Resolution": {
+                "description": "Supported resolution as width, height and refresh rate",
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "refreshRate": {
+                        "description": "Supported refresh rate",
+                        "$ref": "#/definitions/types/Uint16"
+                    },
+                    "width": {
+                        "description": "Supported width",
+                        "$ref": "#/definitions/types/Uint16"
+                    },
+                    "height": {
+                        "description": "Supported height",
+                        "$ref": "#/definitions/types/Uint16"
+                    }
+                },
+                "required": [
+                    "refreshRate",
+                    "width",
+                    "height"
+                ]
+            },
+            "ConnectionType": {
+                "description": "Type of connection requested by client",
+                "type": "string",
+                "enum": [
+                    "Local",
+                    "Gfn"
+                ]
+            },
+            "AuthType": {
+                "description": "Type of authentication requested by client",
+                "type": "string",
+                "enum": [
+                    "StarFleet",
+                    "Guest"
+                ]
+            },
+            "SessionState": {
+                "description": "Client session states",
+                "type": "string",
+                "enum": [
+                    "Connecting",
+                    "Connected",
+                    "Disconnecting",
+                    "Disconnected",
+                    "Pausing",
+                    "Paused",
+                    "Resuming",
+                    "Initialized",
+                    "Authenticating",
+                    "Authenticated"
+                ]
+            },
+            "Lifetime": {
+                "description": "Client lifetime",
+                "type": "string",
+                "enum": [
+                    "Created",
+                    "Destroyed"
+                ]
+            }
+        },
+        "events": {
+            "CXR_LifetimeEvent": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services."
+                    }
+                },
+                "description": "Capture when the client creates a CloudXR client",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "lifetime": {
+                        "description": "Lifetime event changes",
+                        "$ref": "#/definitions/types/Lifetime"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "lifetime",
+                    "cxrSessionId"
+                ]
+            },
+            "CXR_SessionConfiguration": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services."
+                    }
+                },
+                "description": "Capture the clients session configuration attempt",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "resolution": {
+                        "description": "Resolution client has requested",
+                        "$ref": "#/definitions/types/Resolution"
+                    },
+                    "streamCount": {
+                        "description": "Number of stream client has requested",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "connectionType": {
+                        "description": "Type of session",
+                        "$ref": "#/definitions/types/ConnectionType"
+                    },
+                    "authType": {
+                        "description": "The type of authentication client will use",
+                        "$ref": "#/definitions/types/AuthType"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "gfnSessionId": {
+                        "description": "A unique identifier for the GFN session from connection to disconnection.",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "clientBuildVersion": {
+                        "description": "A string that represents the build version of the client",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "resolution",
+                    "streamCount",
+                    "connectionType",
+                    "authType",
+                    "cxrSessionId",
+                    "gfnSessionId",
+                    "clientBuildVersion"
+                ]
+            },
+            "CXR_SessionState": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services."
+                    }
+                },
+                "description": "Capture the clients session state change attempt",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "sessionState": {
+                        "description": "The session state of the client",
+                        "$ref": "#/definitions/types/SessionState"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "sessionState",
+                    "cxrSessionId"
+                ]
+            },
+            "CXR_ClientRequest": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services."
+                    }
+                },
+                "description": "Capture the clients interaction JSON with KitXR",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "requestJSON": {
+                        "description": "The interaction JSON data",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "requestJSON",
+                    "cxrSessionId"
+                ]
+            },
+            "CXR_ServerResponse": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services."
+                    }
+                },
+                "description": "Capture the servers interaction JSON with KitXR",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "responseJSON": {
+                        "description": "The interaction JSON data",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "responseJSON",
+                    "cxrSessionId"
+                ]
+            },
+            "CXR_ExceptionInfo": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "technical",
+                        "desc": "To enhance and develop NVIDIA services"
+                    }
+                },
+                "description": "Send the exception info details",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "filename": {
+                        "description": "Filename in which exception happened",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "lineno": {
+                        "description": "Line no. at which exception happened",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "stacktrace": {
+                        "description": "Exception stacktrace.",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "colno": {
+                        "description": "Coloumn no. at which exception happened",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "handled": {
+                        "description": "Whether exception was handled or unhandled",
+                        "$ref": "#/definitions/types/BooleanType"
+                    },
+                    "category": {
+                        "description": "Exception category",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "message": {
+                        "description": "Exception error code",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "moduleName": {
+                        "description": "The name of the module that generated this event",
+                        "$ref": "#/definitions/types/CXRModuleName"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "filename",
+                    "lineno",
+                    "stacktrace",
+                    "colno",
+                    "handled",
+                    "category",
+                    "message",
+                    "moduleName",
+                    "cxrSessionId"
+                ]
+            },
+            "CXR_ClientMetricEvent": {
+                "eventMeta": {
+                    "service": "telemetry",
+                    "gdpr": {
+                        "category": "functional",
+                        "desc": "To enhance and develop NVIDIA services"
+                    }
+                },
+                "description": "Send the generic client metric event",
+                "additionalProperties": false,
+                "type": "object",
+                "properties": {
+                    "metricName": {
+                        "description": "The name of the metric being tracked",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "moduleName": {
+                        "description": "The name of the module that generated this event",
+                        "$ref": "#/definitions/types/CXRModuleName"
+                    },
+                    "valueInt1": {
+                        "description": "Int type metric",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "valueInt2": {
+                        "description": "Int type metric",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "valueInt3": {
+                        "description": "Int type metric",
+                        "$ref": "#/definitions/types/Counter"
+                    },
+                    "valueString": {
+                        "description": "String type metric",
+                        "$ref": "#/definitions/types/String"
+                    },
+                    "valueDouble": {
+                        "description": "Double type metric",
+                        "$ref": "#/definitions/types/Double"
+                    },
+                    "cxrSessionId": {
+                        "description": "A unique identifier for the CloudXR session from connection to disconnection",
+                        "$ref": "#/definitions/types/String"
+                    }
+                },
+                "required": [
+                    "metricName",
+                    "moduleName",
+                    "valueInt1",
+                    "valueInt2",
+                    "valueInt3",
+                    "valueString",
+                    "valueDouble",
+                    "cxrSessionId"
+                ]
+            }
+        }
+    }
+}

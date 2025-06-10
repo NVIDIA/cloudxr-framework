@@ -1,0 +1,11 @@
+framework module CloudXRKit {
+  umbrella header "CloudXRKit.h"
+  export *
+
+  module * { export * }
+}
+
+module CloudXRKit.Swift {
+  header "CloudXRKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,353 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CloudXRKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import ARKit
+@_exported import CloudXRKit
+import Combine
+import CoreMedia
+import CryptoKit
+import Metal
+import MetalKit
+import MetalPerformanceShaders
+import OSLog
+import QuartzCore
+import RealityKit
+import Spatial
+import Swift
+import SwiftUI
+import _Concurrency
+import _RealityKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.lock
+import os.log
+import os
+import simd
+extension Swift.BinaryFloatingPoint {
+  public var degrees: Self {
+    get
+  }
+  public var radians: Self {
+    get
+  }
+}
+extension Swift.SIMD3 where Scalar == Swift.Float {
+  public var isNaN: Swift.Bool {
+    get
+  }
+  public var isFinite: Swift.Bool {
+    get
+  }
+  public static func * (vec: simd.simd_float3, scale: Swift.Float) -> simd.simd_float3
+  public func distance(from point: simd.simd_float3) -> Swift.Float
+}
+extension Swift.SIMD4 where Scalar == Swift.Double {
+  public var float: simd.simd_float4 {
+    get
+  }
+}
+extension simd.simd_float4x4 {
+  public var left: simd.simd_float3 {
+    get
+  }
+  public var up: simd.simd_float3 {
+    get
+  }
+  public var forward: simd.simd_float3 {
+    get
+  }
+}
+extension simd.simd_double4x4 {
+  public var float: simd.simd_float4x4 {
+    get
+  }
+}
+extension simd.simd_quatf {
+  public static func + (quat: simd.simd_quatf, delta: Spatial.Rotation3D) -> simd.simd_quatf
+  @discardableResult
+  public static func += (quat: inout simd.simd_quatf, delta: Spatial.Rotation3D) -> simd.simd_quatf
+}
+extension simd.simd_quatd {
+  public var float: simd.simd_quatf {
+    get
+  }
+}
+extension RealityFoundation.Transform {
+  public func translated(by vector: Spatial.Vector3D) -> RealityFoundation.Transform
+}
+public enum DebugVizMode : Swift.String, Swift.CaseIterable {
+  case disabled
+  case alpha
+  case depth
+  case displacement
+  case wireframe
+  case contours
+  case rgb
+  case hideContent
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CloudXRKit.DebugVizMode]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CloudXRKit.DebugVizMode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct DebugVizConfig {
+  public init()
+  public var debugVizMode: CloudXRKit.DebugVizMode
+  public var enableDebugVizTransparency: Swift.Bool
+  public var enableDebugVizReprojection: Swift.Bool
+}
+public struct StreamingStats {
+  public var frameReceiveRate: Swift.Double?
+}
+@_hasMissingDesignatedInitializers public class CloudXRSession : CloudXRKit.Session {
+  public init(config: CloudXRKit.Config)
+  @objc deinit
+  override public func sendUserFeedback(rating: Swift.Int, selectedReason: CloudXRKit.FeedbackReason)
+  override public func configure(config: CloudXRKit.Config)
+  override public func pause()
+  override public func resume() throws
+  @_Concurrency.MainActor override public func connect() async throws
+  override public func sendServerMessage(_ data: Foundation.Data)
+  override public func disconnect()
+  override public var stats: CloudXRKit.StreamingStats {
+    get
+  }
+}
+public struct HUDConfig {
+  public var showRateMetrics: Swift.Bool
+  public var showLatencyMetrics: Swift.Bool
+  public var showBandwidthMetrics: Swift.Bool
+  public init()
+}
+@_Concurrency.MainActor @preconcurrency public struct HUDView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(session: CloudXRKit.Session, hudConfig: CloudXRKit.HUDConfig)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s10CloudXRKit7HUDViewV4bodyQrvp", 0) __
+}
+public enum StreamingError : Foundation.LocalizedError {
+  case other(_: any Swift.Error)
+  case authentication(_: any Swift.Error)
+  case streamTimeout(_: any Swift.Error)
+  case server(_: any Swift.Error)
+  case network(_: any Swift.Error)
+  case pauseTimeout(_: any Swift.Error)
+  case serverTypeUnsupported(_: any Swift.Error)
+  case invalidServerURL(_: any Swift.Error)
+  case invalidStreamCount(_: any Swift.Error)
+  case deviceSessionLimitExceeded(_: any Swift.Error)
+  case sessionTerminatedUnknownReason(_: any Swift.Error)
+  case dns(_: any Swift.Error)
+  case failedConnectionAttempt(_: any Swift.Error)
+  case serverDisconnected(_: any Swift.Error)
+  case rtsp(_: any Swift.Error)
+  case rtp(_: any Swift.Error)
+  case serverVideo(_: any Swift.Error)
+  case serverControl(_: any Swift.Error)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public var kind: Swift.String {
+    get
+  }
+}
+public let clientStatsVersion: Swift.UInt64
+public class TrackingSystem : RealityFoundation.System {
+  public static let logger: os.Logger
+  public struct TrackingResult {
+  }
+  public typealias Fov = (leftTan: Swift.Float, rightTan: Swift.Float, topTan: Swift.Float, bottomTan: Swift.Float)
+  public static func makeFov(tangents: simd.simd_float4) -> CloudXRKit.TrackingSystem.Fov
+  @_Concurrency.MainActor @preconcurrency required public init(scene: RealityFoundation.Scene)
+  @_Concurrency.MainActor @preconcurrency public func update(context: RealityFoundation.SceneUpdateContext)
+  @objc deinit
+}
+public struct CloudXRSessionComponent : RealityFoundation.TransientComponent {
+  public static let query: RealityFoundation.EntityQuery
+  public static func findEntityIn(_ context: RealityFoundation.SceneUpdateContext) -> RealityFoundation.Entity?
+  public var session: CloudXRKit.Session
+  public init(session: CloudXRKit.Session)
+}
+public func registerSystems()
+public enum FeedbackReason : Swift.String, Swift.CaseIterable {
+  case none
+  case ghosting
+  case halo
+  case streak
+  case jitter
+  case freeze
+  case stutter
+  case loading
+  case transition
+  case lagging
+  case fps
+  case campose
+  case portal
+  case connection
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CloudXRKit.FeedbackReason]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CloudXRKit.FeedbackReason] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SessionState : Swift.Equatable, Swift.CustomStringConvertible {
+  case initialized
+  case authenticating
+  case authenticated
+  case connecting
+  case connected
+  case disconnecting
+  case paused
+  case pausing
+  case resuming
+  case disconnected(error: Swift.Result<Swift.Void, CloudXRKit.StreamingError>)
+  public var description: Swift.String {
+    get
+  }
+  public static func == (lhs: CloudXRKit.SessionState, rhs: CloudXRKit.SessionState) -> Swift.Bool
+}
+public enum AuthenticationType {
+  case starfleet(_: UIKit.UIWindow? = nil)
+  case guest(partnerId: Swift.String, tokenHost: Foundation.URL, nonce: Swift.String)
+}
+public enum ConnectionType {
+  case local(ip: Swift.String)
+  case nvGraphicsDeliveryNetwork(appId: Swift.UInt, authenticationType: CloudXRKit.AuthenticationType, zone: Swift.String? = nil)
+}
+public enum TelemetryConsentType {
+  case disabled
+  case enabled
+  public static func == (a: CloudXRKit.TelemetryConsentType, b: CloudXRKit.TelemetryConsentType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ResolutionPreset : Swift.String, Swift.CaseIterable {
+  case standardPreset
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CloudXRKit.ResolutionPreset]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CloudXRKit.ResolutionPreset] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum DejitterProfile : Swift.String, Swift.CaseIterable {
+  case fast
+  case smooth
+  case disabled
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CloudXRKit.DejitterProfile]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CloudXRKit.DejitterProfile] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HandTrackingMode : Swift.String, Swift.CaseIterable {
+  case legacy
+  case prediction
+  case disabled
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [CloudXRKit.HandTrackingMode]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [CloudXRKit.HandTrackingMode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct Config {
+  public var connectionType: CloudXRKit.ConnectionType
+  public var headPosePredictionFactor: Swift.Double
+  public var resolutionPreset: CloudXRKit.ResolutionPreset
+  public var telemetryConsentType: CloudXRKit.TelemetryConsentType
+  public var dejitterProfile: CloudXRKit.DejitterProfile
+  public var enableDepthEffects: Swift.Bool
+  public init()
+}
+public enum SessionError : Swift.Error {
+  case invalidOperationForState(CloudXRKit.SessionState)
+  case nilConfiguration
+}
+public protocol SessionQualityListener {
+  func updateSessionQuality(to newQuality: CloudXRKit.Session.SessionQuality, from oldQuality: CloudXRKit.Session.SessionQuality)
+}
+@_hasMissingDesignatedInitializers public class Session {
+  public var serverMessageStream: _Concurrency.AsyncStream<Foundation.Data> {
+    get
+  }
+  public var state: CloudXRKit.SessionState {
+    get
+  }
+  public enum SessionQuality : Swift.Int, Swift.Comparable {
+    case noData
+    case unsustainable
+    case degraded
+    case good
+    case excellent
+    public static func < (lhs: CloudXRKit.Session.SessionQuality, rhs: CloudXRKit.Session.SessionQuality) -> Swift.Bool
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public var sessionQuality: CloudXRKit.Session.SessionQuality {
+    get
+  }
+  public func setNetworkQualityListener(listener: any CloudXRKit.SessionQualityListener)
+  public var latestHeadPose: RealityFoundation.Transform? {
+    get
+    set
+  }
+  public func configure(config: CloudXRKit.Config)
+  public func connect() async throws
+  public func disconnect()
+  public func pause()
+  public func resume() throws
+  public func sendServerMessage(_ data: Foundation.Data)
+  public func sendUserFeedback(rating: Swift.Int, selectedReason: CloudXRKit.FeedbackReason)
+  public var stats: CloudXRKit.StreamingStats {
+    get
+  }
+  @objc deinit
+}
+extension CloudXRKit.Session : Observation.Observable {
+}
+extension CloudXRKit.DebugVizMode : Swift.Equatable {}
+extension CloudXRKit.DebugVizMode : Swift.Hashable {}
+extension CloudXRKit.DebugVizMode : Swift.RawRepresentable {}
+extension CloudXRKit.HUDView : Swift.Sendable {}
+extension CloudXRKit.FeedbackReason : Swift.Equatable {}
+extension CloudXRKit.FeedbackReason : Swift.Hashable {}
+extension CloudXRKit.FeedbackReason : Swift.RawRepresentable {}
+extension CloudXRKit.TelemetryConsentType : Swift.Equatable {}
+extension CloudXRKit.TelemetryConsentType : Swift.Hashable {}
+extension CloudXRKit.ResolutionPreset : Swift.Equatable {}
+extension CloudXRKit.ResolutionPreset : Swift.Hashable {}
+extension CloudXRKit.ResolutionPreset : Swift.RawRepresentable {}
+extension CloudXRKit.DejitterProfile : Swift.Equatable {}
+extension CloudXRKit.DejitterProfile : Swift.Hashable {}
+extension CloudXRKit.DejitterProfile : Swift.RawRepresentable {}
+extension CloudXRKit.HandTrackingMode : Swift.Equatable {}
+extension CloudXRKit.HandTrackingMode : Swift.Hashable {}
+extension CloudXRKit.HandTrackingMode : Swift.RawRepresentable {}
+extension CloudXRKit.Session.SessionQuality : Swift.Hashable {}
+extension CloudXRKit.Session.SessionQuality : Swift.RawRepresentable {}

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-xros2.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CloudXRKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-xros2.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CloudXRKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import ARKit
 @_exported import CloudXRKit
 import Combine
@@ -9,6 +9,7 @@ import CompositorServices
 import CoreMedia
 import CryptoKit
 import Metal
+import MetalFX
 import MetalKit
 import MetalPerformanceShaders
 import OSLog
@@ -82,7 +83,11 @@ public enum DebugVizMode : Swift.String, Swift.CaseIterable {
   case disabled
   case alpha
   case depth
+  case displacement
+  case wireframe
+  case contours
   case rgb
+  case hideContent
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CloudXRKit.DebugVizMode]
   public typealias RawValue = Swift.String
@@ -98,6 +103,9 @@ public struct DebugVizConfig {
   public var debugVizMode: CloudXRKit.DebugVizMode
   public var enableDebugVizTransparency: Swift.Bool
   public var enableDebugVizReprojection: Swift.Bool
+}
+public struct StreamingStats {
+  public var frameReceiveRate: Swift.Double?
 }
 @_hasMissingDesignatedInitializers public class CloudXRSession : CloudXRKit.Session {
   public init(config: CloudXRKit.Config)
@@ -116,6 +124,9 @@ public struct DebugVizConfig {
   @_Concurrency.MainActor public static func requestAuthorization(for authorizationTypes: [ARKit.ARKitSession.AuthorizationType]) async -> [ARKit.ARKitSession.AuthorizationType : ARKit.ARKitSession.AuthorizationStatus]
   @_Concurrency.MainActor public static func resetArKitSession()
   @_Concurrency.MainActor public static func addDataProvidersToArKitSession(_ dataProviders: [any ARKit.DataProvider] = [])
+  override public var stats: CloudXRKit.StreamingStats {
+    get
+  }
 }
 public struct HUDConfig {
   public var showRateMetrics: Swift.Bool
@@ -128,7 +139,6 @@ public struct HUDConfig {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s10CloudXRKit7HUDViewV4bodyQrvp", 0) __
 }
 public enum StreamingError : Foundation.LocalizedError {
@@ -175,21 +185,19 @@ public struct CloudXRSessionComponent : RealityFoundation.TransientComponent {
   public init(session: CloudXRKit.Session)
 }
 public func registerSystems()
-extension CloudXRKit.TrackingSystem {
-  public struct EyeMetrics {
-    public let ipd: Swift.Float
-    public let eyesMidpoint: simd.simd_float3
-  }
-}
 public class HmdProperties {
-  public var measuredIpd: Swift.Float {
+  public var leftEyeInDeviceSpace: simd.simd_float3 {
     get
+    set
+    _modify
   }
-  public var eyesMidpoint: simd.simd_float3 {
+  public var rightEyeInDeviceSpace: simd.simd_float3 {
     get
+    set
+    _modify
   }
   public init()
-  public func beginIpdCheck(openImmersiveSpace: SwiftUI.OpenImmersiveSpaceAction, forceRefresh: Swift.Bool = false)
+  public func beginIpdCheck(openImmersiveSpace: SwiftUI.OpenImmersiveSpaceAction, forceRefresh: Swift.Bool = false, completionHandler: (() -> Swift.Void)? = nil)
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct FetchHmdPropertiesImmersiveSpace : SwiftUI.Scene {
@@ -197,7 +205,6 @@ public class HmdProperties {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUI.Scene {
     get
   }
-  @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
   public typealias Body = @_opaqueReturnTypeOf("$s10CloudXRKit32FetchHmdPropertiesImmersiveSpaceV4bodyQrvp", 0) __
 }
 extension CloudXRKit.HmdProperties : Observation.Observable {
@@ -261,9 +268,8 @@ public enum TelemetryConsentType {
   }
 }
 public enum ResolutionPreset : Swift.String, Swift.CaseIterable {
-  case lowResolutionPreset
   case standardPreset
-  case highResolutionPreset
+  case performancePreset
   case recordingPreset
   public init?(rawValue: Swift.String)
   public typealias AllCases = [CloudXRKit.ResolutionPreset]
@@ -305,12 +311,13 @@ public enum HandTrackingMode : Swift.String, Swift.CaseIterable {
 }
 public struct Config {
   public var connectionType: CloudXRKit.ConnectionType
-  public var handTrackingMode: CloudXRKit.HandTrackingMode
-  public var handTrackingPredictionFactor: Swift.Double
+  public var headPosePredictionFactor: Swift.Double
   public var resolutionPreset: CloudXRKit.ResolutionPreset
   public var telemetryConsentType: CloudXRKit.TelemetryConsentType
   public var dejitterProfile: CloudXRKit.DejitterProfile
-  public var premultiplyAlpha: Swift.Bool
+  public var enablePoseSmoothing: Swift.Bool
+  public var handTrackingMode: CloudXRKit.HandTrackingMode
+  public var handTrackingPredictionFactor: Swift.Double
   public init()
 }
 public enum SessionError : Swift.Error {
@@ -355,6 +362,9 @@ public protocol SessionQualityListener {
   public func resume() throws
   public func sendServerMessage(_ data: Foundation.Data)
   public func sendUserFeedback(rating: Swift.Int, selectedReason: CloudXRKit.FeedbackReason)
+  public var stats: CloudXRKit.StreamingStats {
+    get
+  }
   @objc deinit
 }
 extension CloudXRKit.Session : Observation.Observable {
