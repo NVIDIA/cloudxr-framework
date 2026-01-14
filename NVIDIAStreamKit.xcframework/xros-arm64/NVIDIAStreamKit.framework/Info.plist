@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22G320</string>
+	<string>24D70</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -23,29 +23,29 @@
 		<string>XROS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>458</string>
+	<string>773</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>21N5295a</string>
+	<string>22O233</string>
 	<key>DTPlatformName</key>
 	<string>xros</string>
 	<key>DTPlatformVersion</key>
-	<string>1.0</string>
+	<string>2.4</string>
 	<key>DTSDKBuild</key>
-	<string>21N5295a</string>
+	<string>22O233</string>
 	<key>DTSDKName</key>
-	<string>xros1.0</string>
+	<string>xros2.4</string>
 	<key>DTXcode</key>
-	<string>1510</string>
+	<string>1630</string>
 	<key>DTXcodeBuild</key>
-	<string>15C5059c</string>
+	<string>16E140</string>
 	<key>GitRev</key>
-	<string>714939a</string>
+	<string>1da4d5a</string>
 	<key>MinimumOSVersion</key>
 	<string>1.0</string>
 	<key>P4Version</key>
-	<string>rel/gs_04_76#head@35777866</string>
+	<string>rel/gs_04_80#head@36923540</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>7</integer>

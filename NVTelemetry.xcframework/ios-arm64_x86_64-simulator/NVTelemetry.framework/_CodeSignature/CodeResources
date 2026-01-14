@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/NVTelemetry-Swift.h</key>
 		<data>
-		F/Cb6LpIPcFeCoBeD/r1B3yzpAw=
+		Bx7sjt/YfMwKyf4kT5k8dhW/570=
 		</data>
 		<key>Headers/NVTelemetry.h</key>
 		<data>
@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		06MVJFm4xHZQ5Z/T1U9XpMun9Os=
+		JKsXTYqK3z5RlgOoa3UZiH8t9iM=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sfGqP7ZkaRvMtZrRz1uHa+lEIGU=
+		K2u49+028HekAMeIgloe7j1IuEs=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		sU9m3v54C0T6E9moB0CvojEY4cI=
+		rTAcnxqGGwRodS5ujyIsTkt8zlU=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zcPGSXmBJmZ8KBiNh4JtbGz56BY=
+		LQP849vw+K/RDIaCggKpLfQ18K0=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sU9m3v54C0T6E9moB0CvojEY4cI=
+		rTAcnxqGGwRodS5ujyIsTkt8zlU=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XO+fEFvrxL6+lE1fwvdHqcDYaS0=
+		QQPcyh6QW/8cplbTAJUEWjd94r4=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sfGqP7ZkaRvMtZrRz1uHa+lEIGU=
+		K2u49+028HekAMeIgloe7j1IuEs=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9iheomVciGArc8+Abv44mMnvdic=
+		ZCxFfBKwzLlfCkdC81r+XgrYNUY=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		L47mcgZ1n8W3q0zL0dnSRomkGDQ=
+		HIcBC1C7mqvUYPxFp4WIibDveMM=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9iheomVciGArc8+Abv44mMnvdic=
+		ZCxFfBKwzLlfCkdC81r+XgrYNUY=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DmphNDKaoj9W9g68SUtdoCBwoME=
+		2g6A/nkfRNBLLpqUlqol4g4GDE4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>NVTModel.momd/NVTModel.mom</key>
 		<data>
-		8mDGTDUsNhVEuehq97VhuHzjofk=
+		irkmEioX2DlaiT3a7zthzkzf1zs=
 		</data>
 		<key>NVTModel.momd/NVTModel.omo</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>NVTModel.momd/VersionInfo.plist</key>
 		<data>
-		akJWaDkpT3meySAryQdUMfkwxPQ=
+		wZzoXBrOzrdX9OWVdo0XuLk/nfU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pmLWZUFhCjaZnmsC+EsJYZFUzI6M3Fln3OI16zA76zo=
+			big33VBf4/9TG4V0qDtWdXwq9SdjObqoXNlxLQd9fOI=
 			</data>
 		</dict>
 		<key>Headers/NVTelemetry.h</key>
@@ -115,70 +115,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kMPmCiF2LH3Q3o7tLdAIeBeWIAWXhGg6jP6krrsQ9Uc=
+			wPGGOgq89EusO2xZipzo3FrTi+N+ssvabGkhCRBSQLY=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JH68vqxlvVOlXWe6IvVwogIm58MC5XQkMqt9mK6z6+I=
+			5IXbwvg30UFqgYilNOXcc2ROJJ+Go34fHdRZl6Ffo4g=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWcZa39n59hVRo4retOeWOIMO810u1UfzqB2+wYkzaE=
+			Fo5wFCA2tM+VvSrpizhavjA/UIRmv/JZ/XvK0DBGLic=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JH68vqxlvVOlXWe6IvVwogIm58MC5XQkMqt9mK6z6+I=
+			5IXbwvg30UFqgYilNOXcc2ROJJ+Go34fHdRZl6Ffo4g=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9lTECJC1VPHybWrw9xjsxqHZ8Pyjo3EpJ9Ou1U6ENHY=
+			5KtVaam3AmC36qRgb0oXIl28bztG87K5S0DuABkh7AA=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kMPmCiF2LH3Q3o7tLdAIeBeWIAWXhGg6jP6krrsQ9Uc=
+			wPGGOgq89EusO2xZipzo3FrTi+N+ssvabGkhCRBSQLY=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BmbLa99EwOXheKBeOvsulMicy3gMaAuu0vnFTbcykg=
+			edxEDDCLMewOkIjOFe604s0a3I7qNblWwDhfvAcAwzE=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QT/gYyq0sKFtkY8az775tRWdOqVMv6pVl582Rsz/xVE=
+			OqRyD/s/wedhy4SFiUAKNImJ6RsqtWHzO3yz8z4JgPw=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BmbLa99EwOXheKBeOvsulMicy3gMaAuu0vnFTbcykg=
+			edxEDDCLMewOkIjOFe604s0a3I7qNblWwDhfvAcAwzE=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBINoS/A8nq8X10QkRUeiMjltpwr2cUAIbT83WeqNIw=
+			kkVE9Zbd+ydSnWZVYBpd3BUAhRq8TPWrdH1xEQvVO8g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2HVIdMcW+GSCNDCD642M9KDUMjyqB1CcZE9NpDMHsQ=
+			Xd4u/TJzP7tbqNRDZzCR016L9Ol3kr5AD6Yz1smwOs8=
 			</data>
 		</dict>
 		<key>NVTModel.momd/NVTModel.omo</key>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajn+EoR3sbXRt1wQpk13T0wD5vLG4e2T9a2VVl0rZEI=
+			Ih7hR04Uft20DV6sVVxv43pyWb00GK/mzO2HV2RJXe0=
 			</data>
 		</dict>
 	</dict>

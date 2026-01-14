@@ -1,0 +1,14 @@
+{
+    "protocPath": "/opt/homebrew/bin/protoc",
+    "invocations": [
+        {
+            "protoFiles": [
+                "openxr.proto",
+                "cloudxr.proto"
+            ],
+            "visibility": "internal",
+            "useAccessLevelOnImports": true,
+            "server": false
+        }
+    ]
+}

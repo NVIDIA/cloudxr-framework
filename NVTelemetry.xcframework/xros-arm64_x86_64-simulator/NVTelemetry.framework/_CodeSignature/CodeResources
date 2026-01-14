@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/NVTelemetry-Swift.h</key>
 		<data>
-		F/Cb6LpIPcFeCoBeD/r1B3yzpAw=
+		Bx7sjt/YfMwKyf4kT5k8dhW/570=
 		</data>
 		<key>Headers/NVTelemetry.h</key>
 		<data>
@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sZ8tR1DtATW3GgeNuLLFHc29dQ0=
+		ggPlE8KL3OD/RAfwUvxNIt9hOI4=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		WARElChiKlKhDLBfszJdR6x5XDk=
+		lksvbaXcx3V7nn39rJJHnqTBKBg=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		lx9nbPXNjQjcPR0p7f+MjwJuEXA=
+		ZqsZvGoquGpS0yN2FsmAJMDjO5U=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		giILWDeEM6HS4FfXXpFpNEGs0zg=
+		iDSiVQy0WzV79mg7ZAch3gFhzEE=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		lx9nbPXNjQjcPR0p7f+MjwJuEXA=
+		ZqsZvGoquGpS0yN2FsmAJMDjO5U=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		4R6QwevDiQXI021QB7PwJpYIWLk=
+		Izk4Pdu0PWmp1nRzfChxw3Mjt80=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		WARElChiKlKhDLBfszJdR6x5XDk=
+		lksvbaXcx3V7nn39rJJHnqTBKBg=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		fZaEAcPj46/R7B0+Xq6um1263NI=
+		so+9pQhsk6YN37LH1BWD4XvImCs=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		k849DRjY6PFb39PplkXDgJ5vptY=
+		Ej+VrMifr3xSngjGJ5GFp7Mo/Dk=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		fZaEAcPj46/R7B0+Xq6um1263NI=
+		so+9pQhsk6YN37LH1BWD4XvImCs=
 		</data>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		j6R5ZPGcu1pKtjVTvogzQupyWjM=
+		+Ir3jW7LUUzFpGMutkGYqHkLAZk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>NVTModel.momd/NVTModel.mom</key>
 		<data>
-		8mDGTDUsNhVEuehq97VhuHzjofk=
+		irkmEioX2DlaiT3a7zthzkzf1zs=
 		</data>
 		<key>NVTModel.momd/NVTModel.omo</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>NVTModel.momd/VersionInfo.plist</key>
 		<data>
-		akJWaDkpT3meySAryQdUMfkwxPQ=
+		wZzoXBrOzrdX9OWVdo0XuLk/nfU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pmLWZUFhCjaZnmsC+EsJYZFUzI6M3Fln3OI16zA76zo=
+			big33VBf4/9TG4V0qDtWdXwq9SdjObqoXNlxLQd9fOI=
 			</data>
 		</dict>
 		<key>Headers/NVTelemetry.h</key>
@@ -115,70 +115,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xct2o/5/8o0zG55Sim26zs8xq5umRoxUMX3TKqJMstM=
+			/b4dc2Acuj6oWVlI1LBx4kcSS4k0afuBlskxw1RUGZ4=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gc2+2zQj6O8wHU8jgteE1OagPOOiSecBsMAXDh50YL4=
+			QLIL/WNMRWH2Yd38GUCoo51I5p9kD7fSMpA9KLbzbOo=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j7ZF3Q1kNWiG1d7CEf7IRNAxCJ3y89Utz1nk9QBHwz0=
+			3lnzUDlzfAtZdalX1xsxCRb3E04+Q3ugZIH7b69z1a8=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gc2+2zQj6O8wHU8jgteE1OagPOOiSecBsMAXDh50YL4=
+			QLIL/WNMRWH2Yd38GUCoo51I5p9kD7fSMpA9KLbzbOo=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DeSzsMLDsyMdSdSYtVVFuWIzN16ynZOwVPLeby2zTzE=
+			JfTXuWaOJCpPLgq+ktbD1psAhr2h3G8eqhdMobP9Koc=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xct2o/5/8o0zG55Sim26zs8xq5umRoxUMX3TKqJMstM=
+			/b4dc2Acuj6oWVlI1LBx4kcSS4k0afuBlskxw1RUGZ4=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			msxnZUJqoiExOE7rpyOdzVI3r1Yo8R9lfDao6okQQQI=
+			esOyYcO3+7zMbCOU1sgeCXKnplBLA5V9/JfyAZKpnAY=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HUxpR8ZMUS2dmJSINJQPl+55bZXsS+bZGQNWaw0PTkQ=
+			mWyMuI+HLFM9pfZUhZsTpJqy60HK5GizF4MGLdOlD7w=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			msxnZUJqoiExOE7rpyOdzVI3r1Yo8R9lfDao6okQQQI=
+			esOyYcO3+7zMbCOU1sgeCXKnplBLA5V9/JfyAZKpnAY=
 			</data>
 		</dict>
 		<key>Modules/NVTelemetry.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQcu4sgP8zIsAwYUU8KTyPWAQnO9bocrh0qmp9V/URw=
+			38eenu7Ioqnpk5iRvJYicJAtHMlqdYfSu7W8kC1jI7s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2HVIdMcW+GSCNDCD642M9KDUMjyqB1CcZE9NpDMHsQ=
+			Xd4u/TJzP7tbqNRDZzCR016L9Ol3kr5AD6Yz1smwOs8=
 			</data>
 		</dict>
 		<key>NVTModel.momd/NVTModel.omo</key>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajn+EoR3sbXRt1wQpk13T0wD5vLG4e2T9a2VVl0rZEI=
+			Ih7hR04Uft20DV6sVVxv43pyWb00GK/mzO2HV2RJXe0=
 			</data>
 		</dict>
 	</dict>
