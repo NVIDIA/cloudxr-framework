@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xPyRDa2iMa+jZ77yBigwtP1wqz8=
+		zvnOmtcw6bbnHO/qkUEbW7tFlOw=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		12JB+96NeScd8F+fdFqrGIoknnA=
+		l+w/TNZzwYGhoxVXrUQcUCjxbm0=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zqjLroeSW+MzsYLD6+m8rAvAcyY=
+		AI6CY0Kftp2dQcLUuBYP5ME6+7c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XGYXFTSdPmI9ry90hKlqURO1EVM6RcPd4RMTa+vBMj8=
+			q4KPWIJyUZF1CjHRanWDv+zMUJD5W7GLLvXIFOrHbsg=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6LDII8JbZhx/aGD8U0IWzCY0mougkn4Y8qWYeZ9FtE=
+			jczDCEDrDAT1NKkcztmfTSz4QCsURjEXuifnGspm6b8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

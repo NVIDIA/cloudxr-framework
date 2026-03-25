@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>24G84</string>
+	<string>25A354</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -25,7 +25,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CloudXRKit_Version</key>
-	<string>6.0.2</string>
+	<string>6.0.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -39,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>xros26.0</string>
 	<key>DTXcode</key>
-	<string>2601</string>
+	<string>2600</string>
 	<key>DTXcodeBuild</key>
-	<string>17A400</string>
+	<string>17A324</string>
 	<key>MinimumOSVersion</key>
 	<string>2.4</string>
 	<key>UIDeviceFamily</key>
