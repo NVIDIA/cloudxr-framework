@@ -1,11 +1,31 @@
 # CloudXR Framework
 
-This SDK allows you to build CloudXR client applications for the Apple Vision Pro and iPad.
+CloudXR Framework is NVIDIA's native Swift framework for building Apple clients that stream XR experiences from OpenXR-compatible server applications built with [CloudXR Runtime](https://docs.nvidia.com/cloudxr-sdk/latest/usr_guide/cxr_runtime/index.html). It provides a SwiftUI-based API for integrating XR streaming into visionOS and iOS applications.
 
-It is designed to be consumed directly from Xcode using the Swift Package Manager and does not need to be cloned directly.
+## Supported Platforms
+
+- **visionOS** — Apple Vision Pro running visionOS 2.4 or later
+- **iOS/iPadOS** — iPhone and iPad with ARKit support, iOS 18.0 or later
+
+## Requirements
+
+- macOS with Xcode 16.4 or later
+- Swift 5.9 or later
+- CloudXR Runtime 6.0 or later on the server
+
+## Installation
+
+Add the package to your Xcode project via Swift Package Manager using this repository URL.
+
+## Key Capabilities
+
+- **Session Management** — Connect to CloudXR Runtime servers and manage streaming sessions
+- **Secure Connections** — TLS-encrypted connections with client token authentication
+- **Message Channels** — Bidirectional custom data exchange between client and server
+- **SwiftUI & RealityKit** — Native integration with modern Apple frameworks
 
 ## Documentation
 
-For visionOS documentation including a getting started and network setup guide please open CloudXRKit-visionOS.doccarchive on a Mac.
+Full documentation, including a step-by-step tutorial, is available at:
 
-For iOS documentation please open CloudXRKit-iOS.doccarchive on a Mac.
+https://docs.nvidia.com/cloudxr-sdk/latest/usr_guide/cloudxr_framework/index.html
