@@ -465,6 +465,7 @@ public struct Config {
   public var dejitterProfile: CloudXRKit.DejitterProfile
   public var enableDepthEffects: Swift.Bool
   public var networkTest: CloudXRKit.NetworkTest
+  public var maximumBitrateMbps: Swift.UInt32?
   public init()
 }
 public enum SessionError : Swift.Error {

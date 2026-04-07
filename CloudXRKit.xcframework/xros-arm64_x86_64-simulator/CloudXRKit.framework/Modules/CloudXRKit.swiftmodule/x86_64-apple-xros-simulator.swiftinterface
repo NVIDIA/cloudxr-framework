@@ -479,6 +479,7 @@ public struct Config {
   public var controllerTrackingMode: CloudXRKit.ControllerTrackingMode
   public var controllerTrackingPredictionFactor: Swift.Double
   public var networkTest: CloudXRKit.NetworkTest
+  public var maximumBitrateMbps: Swift.UInt32?
   public init()
 }
 public enum SessionError : Swift.Error {

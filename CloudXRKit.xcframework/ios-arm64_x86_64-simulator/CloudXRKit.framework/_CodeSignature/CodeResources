@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zvnOmtcw6bbnHO/qkUEbW7tFlOw=
+		+A8QM6xqfjJ0p/RW/VfLz5P/5TA=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cfmjACi7gTLwFFFVGK+3lrwOHec=
+		EeiHV/QVMno8yhSU7xdzWqolhw0=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Xq+57pU2XWou3wUjso3/cakzGxg=
+		Hga0NXxr+qz4q0Zwf1OmVJCfcF0=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cfmjACi7gTLwFFFVGK+3lrwOHec=
+		EeiHV/QVMno8yhSU7xdzWqolhw0=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l+w/TNZzwYGhoxVXrUQcUCjxbm0=
+		XxFVvC2pamjD6cXlBBH3CgA7oJk=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dbPJ8rW3H37W1yP4sneCJ0I1fNc=
+		scZwopqvL56wSPvs9B5cC6Uum1c=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qDlQLvrbJorZ/SeNgRfSIj7sxNY=
+		Q/wbu/HT91Z6196CpJNwOCkEr4Y=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dbPJ8rW3H37W1yP4sneCJ0I1fNc=
+		scZwopqvL56wSPvs9B5cC6Uum1c=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AI6CY0Kftp2dQcLUuBYP5ME6+7c=
+		4eGxEVxOqNZEG7K/aMYdDImEuSI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,28 +136,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2HCIj71zy+WHKldQ+/53Dpc27qVikbzU4LfXFTyme0=
+			xkcrhdMawG+rwVTaINUvVKTVxJdsBWIDy5M7wqSUfek=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pF6xLIgFhqq3clgV2igbyZRM+wR3eQ7Zc9XUPpD7Sc8=
+			XRu8mjYRU+J/7b3ZQv+XfsxsYcXwpE1aHfU48WLqeu4=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2HCIj71zy+WHKldQ+/53Dpc27qVikbzU4LfXFTyme0=
+			xkcrhdMawG+rwVTaINUvVKTVxJdsBWIDy5M7wqSUfek=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4KPWIJyUZF1CjHRanWDv+zMUJD5W7GLLvXIFOrHbsg=
+			2toIkFo4njkR07U8r2F5TGstw+IoBud0peQBDhqm6YU=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -171,28 +171,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DIgohbwtUp4iqvY4qCnQIuiKyHEe+IT8TKzK9t6xVo8=
+			oGaKJR+O8yR1UmKID+spvjXOb31YkwRLC5q1cgZJZ0g=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHPsfMn2zzpTlVRXdDh7yoHwPxNjAfAsXBajOXvjN0Q=
+			QMEu/yINISJ3KJyLPGitfeS6KAAF+MVKrHnaHLU8A8E=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DIgohbwtUp4iqvY4qCnQIuiKyHEe+IT8TKzK9t6xVo8=
+			oGaKJR+O8yR1UmKID+spvjXOb31YkwRLC5q1cgZJZ0g=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jczDCEDrDAT1NKkcztmfTSz4QCsURjEXuifnGspm6b8=
+			ECZdDa2XldZzvxJzmeAe5AvG9GCegU1lyyKtti+iFDM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

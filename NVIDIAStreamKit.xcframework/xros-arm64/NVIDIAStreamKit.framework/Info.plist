@@ -23,7 +23,7 @@
 		<string>XROS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>954</string>
+	<string>1085</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -45,7 +45,7 @@
 	<key>MinimumOSVersion</key>
 	<string>1.0</string>
 	<key>P4Version</key>
-	<string>rel/gs_04_80#head@37374137</string>
+	<string>rel/gs_04_80#head@37700068</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>7</integer>
