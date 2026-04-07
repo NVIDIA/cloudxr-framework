@@ -1,4 +1,4 @@
-# CloudXR Framework 6.0.2
+# CloudXR Framework
 
 This SDK allows you to build CloudXR client applications for the Apple Vision Pro and iPad.
 
