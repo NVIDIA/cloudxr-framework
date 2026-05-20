@@ -7,5 +7,4 @@ framework module CloudXRKit {
 
 module CloudXRKit.Swift {
   header "CloudXRKit-Swift.h"
-  requires objc
 }

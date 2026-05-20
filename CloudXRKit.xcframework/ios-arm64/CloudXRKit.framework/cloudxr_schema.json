@@ -24,7 +24,7 @@
         }
     ],
     "schemaMeta": {
-        "schemaVersion": "2.0",
+        "schemaVersion": "2.1",
         "clientId": "86016923530084393",
         "clientName": "CloudXR",
         "definitionVersion": "1.0"
@@ -78,7 +78,8 @@
                 "type": "string",
                 "enum": [
                     "Unknown",
-                    "CloudXrApple"
+                    "CloudXrApple",
+                    "CloudXrJs"
                 ]
             },
             "Resolution": {

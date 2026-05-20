@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios18.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CloudXRKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios18.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CloudXRKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import ARKit
 @_exported import CloudXRKit
 import Combine
@@ -86,9 +86,7 @@ public enum DebugVizMode : Swift.String, Swift.CaseIterable {
   case contours
   case rgb
   case hideContent
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.DebugVizMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.DebugVizMode] {
@@ -110,14 +108,13 @@ public struct StreamingStats {
 @_hasMissingDesignatedInitializers public class CloudXRSession : CloudXRKit.Session {
   public init(config: CloudXRKit.Config)
   @objc deinit
+  override public func setMicEnabled(_ enabled: Swift.Bool)
   override public func sendUserFeedback(rating: Swift.Int, selectedReason: CloudXRKit.FeedbackReason)
   override public func configure(config: CloudXRKit.Config)
   override public func pause()
   override public func resume() throws
   @_Concurrency.MainActor override public func connect() async throws
-  #if compiler(>=5.3) && $NonescapableTypes
   override public func getMessageChannel(_ channelInfo: CloudXRKit.ChannelInfo) -> CloudXRKit.MessageChannel?
-  #endif
   override public func sendServerMessage(_ data: Foundation.Data)
   override public func disconnect()
   override public var stats: CloudXRKit.StreamingStats {
@@ -168,11 +165,9 @@ public enum StreamingError : Foundation.LocalizedError {
   case rtp(_: any Swift.Error)
   case serverVideo(_: any Swift.Error)
   case serverControl(_: any Swift.Error)
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public var kind: Swift.String {
     get
   }
@@ -190,9 +185,7 @@ public class TrackingSystem : RealityFoundation.System {
 }
 public struct CloudXRSessionComponent : RealityFoundation.TransientComponent {
   public static let query: RealityFoundation.EntityQuery
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func findEntityIn(_ context: RealityFoundation.SceneUpdateContext) -> RealityFoundation.Entity?
-  #endif
   public var session: CloudXRKit.Session
   public init(session: CloudXRKit.Session)
 }
@@ -201,9 +194,7 @@ public enum NVTService : Swift.UInt {
   case none
   case telemetry
   case feedback
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
-  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -256,9 +247,7 @@ public enum ChannelStatus : Swift.String {
   case notInitialized
   case ready
   case closed
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -286,9 +275,7 @@ public enum NetworkScore : Swift.Int, Swift.CaseIterable, Swift.CustomStringConv
     get
   }
   public static func < (lhs: CloudXRKit.NetworkScore, rhs: CloudXRKit.NetworkScore) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias AllCases = [CloudXRKit.NetworkScore]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [CloudXRKit.NetworkScore] {
@@ -339,9 +326,7 @@ public enum FeedbackReason : Swift.String, Swift.CaseIterable {
   case campose
   case portal
   case connection
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.FeedbackReason]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.FeedbackReason] {
@@ -389,9 +374,7 @@ public enum TelemetryConsentType {
 }
 public enum ResolutionPreset : Swift.String, Swift.CaseIterable {
   case standardPreset
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.ResolutionPreset]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.ResolutionPreset] {
@@ -405,9 +388,7 @@ public enum DejitterProfile : Swift.String, Swift.CaseIterable {
   case fast
   case smooth
   case disabled
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.DejitterProfile]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.DejitterProfile] {
@@ -420,9 +401,7 @@ public enum DejitterProfile : Swift.String, Swift.CaseIterable {
 public enum HandTrackingMode : Swift.String, Swift.CaseIterable {
   case disabled
   case simulated
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.HandTrackingMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.HandTrackingMode] {
@@ -435,9 +414,7 @@ public enum HandTrackingMode : Swift.String, Swift.CaseIterable {
 public enum ControllerTrackingMode : Swift.String, Swift.CaseIterable, Swift.Sendable {
   case spatialController
   case disabled
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [CloudXRKit.ControllerTrackingMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [CloudXRKit.ControllerTrackingMode] {
@@ -493,9 +470,7 @@ public protocol SessionQualityListener {
     public var description: Swift.String {
       get
     }
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -509,27 +484,27 @@ public protocol SessionQualityListener {
   }
   @available(*, deprecated, message: "This function is no longer recommended. Use Session.sessionQuality and Session.liveNetworkStats observables.")
   public func setNetworkQualityListener(listener: any CloudXRKit.SessionQualityListener)
-  #if compiler(>=5.3) && $NonescapableTypes
   public var latestHeadPose: RealityFoundation.Transform? {
     get
     set
   }
-  #endif
   public func configure(config: CloudXRKit.Config)
   public func connect() async throws
   public func disconnect()
   public func pause()
   public func resume() throws
   public func sendServerMessage(_ data: Foundation.Data)
+  public var isMicEnabled: Swift.Bool {
+    get
+  }
+  public func setMicEnabled(_ enabled: Swift.Bool)
   public func sendUserFeedback(rating: Swift.Int, selectedReason: CloudXRKit.FeedbackReason)
   public var availableMessageChannels: [CloudXRKit.ChannelInfo] {
     get
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getMessageChannel(_ channelInfo: CloudXRKit.ChannelInfo) -> CloudXRKit.MessageChannel?
-  #endif
   public func getHUDSessionInfo() -> [CloudXRKit.HUDTextInfo]
   public func getHUDTimeseries() -> [[CloudXRKit.HUDTimeseriesData]]
   public var stats: CloudXRKit.StreamingStats {
