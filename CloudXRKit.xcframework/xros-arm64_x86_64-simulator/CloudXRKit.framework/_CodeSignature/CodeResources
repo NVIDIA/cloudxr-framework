@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bE5L5/5UlsqfxOzU3qGBkA3JxGo=
+		LzZxznNmPG2fZfGqT/wm4InuTfs=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		ykOCcFFzbBlYnry1FGya3g6MWyo=
+		1J4FRfREsmDuvGLSachAzCBp6V8=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		6CU6WT3itT22fTH+BlviF/s4NYc=
+		CyVIjsPp2ntvm0F/7o1Ajy1sDRQ=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		ykOCcFFzbBlYnry1FGya3g6MWyo=
+		1J4FRfREsmDuvGLSachAzCBp6V8=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		md1kqomWwHffwacblNEuFnuDc5k=
+		ZW97qrjX34/N6/MEl3TB27JeaVY=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		4DpbP5Z8PTQzm1axMXb0HiQYtTg=
+		PgMzWLf+PQLGPamXmRpj5lO8zjk=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		hiiO96P9X4QYV8wF0qzEAmVeQ1s=
+		1lPql9HtAC3oMB5gv9LX0vDXH5o=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		4DpbP5Z8PTQzm1axMXb0HiQYtTg=
+		PgMzWLf+PQLGPamXmRpj5lO8zjk=
 		</data>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		ybejEVsLvH0HNwfH/OFW3gcvn2o=
+		963dw6jKFF0iyCp2Tva+2YhuQPU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,28 +136,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RU50YUh4reMb2tdzU4t093xm/MefwP3PuAYUHY93dOE=
+			LlLPdtDPTxL+KrISAe5LvUbVFxSp2SZWtMgGhT0TxGo=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UrYZmqERKFwEvSUxMXZcPlM3drZahZ6r5gWNyxKIaJM=
+			/H+ehYot8vqzl+LfvoSZ5OYfbz53wS/fumd/y0FuQ+E=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RU50YUh4reMb2tdzU4t093xm/MefwP3PuAYUHY93dOE=
+			LlLPdtDPTxL+KrISAe5LvUbVFxSp2SZWtMgGhT0TxGo=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OS/NgFP2f4IucQxJTnSIy9L1PywFR+gIdk1W3p283/s=
+			3EWoAw5ICeMYWX/OLkjiweCJifV1jplEUbR/hxoTNAg=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
@@ -171,28 +171,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lkO5IZt/9ThVbIDbExnXfqvNtog4B9GbakxwWfsGR4=
+			tSfFOdxMXGGp/gLab+0RHS3l2h+Q9VZyWRG4uOueLt4=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rgAb56mQaEIrunpIB2bTJZGeU7txkJlnPc9aXQ2A3Hs=
+			Unc5y5t+V2podVID1K01bh2PaGUJyu3aKID7jszIlOM=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lkO5IZt/9ThVbIDbExnXfqvNtog4B9GbakxwWfsGR4=
+			tSfFOdxMXGGp/gLab+0RHS3l2h+Q9VZyWRG4uOueLt4=
 			</data>
 		</dict>
 		<key>Modules/CloudXRKit.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IRU+24sDXPgcRUluA/csUKsv57BrxvyxaxR9ldiEzh4=
+			qZxVHV4/qnSu3YO1+K/6eGdtmNBucIE97CAGzYQ86i0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -291,6 +291,8 @@ public struct NetworkTestReport {
   public let jitterScore: CloudXRKit.NetworkScore
   public let bandwidthScore: CloudXRKit.NetworkScore
   public let devicePerformanceScore: CloudXRKit.NetworkScore
+  public let networkPacketLoss: Swift.Int?
+  public let networkRoundTripDelayMilliseconds: Swift.Int?
   public let serverFPS: (average: Swift.Int, percentile: Swift.Int)
   public let message: Swift.String
   public var description: Swift.String {
@@ -310,6 +312,9 @@ public struct LiveNetworkStats {
   public let latencyMilliseconds: Swift.Int?
   public let jitterMilliseconds: Swift.Int?
   public let bandwidthMbps: Swift.Int?
+  public let networkPacketLoss: Swift.Int?
+  public let networkRoundTripDelayMilliseconds: Swift.Int?
+  public init(latencyMilliseconds: Swift.Int?, jitterMilliseconds: Swift.Int?, bandwidthMbps: Swift.Int?, networkPacketLoss: Swift.Int? = nil, networkRoundTripDelayMilliseconds: Swift.Int? = nil)
 }
 public enum FeedbackReason : Swift.String, Swift.CaseIterable {
   case none
@@ -411,23 +416,24 @@ public enum HandTrackingMode : Swift.String, Swift.CaseIterable {
     get
   }
 }
-public enum ControllerTrackingMode : Swift.String, Swift.CaseIterable, Swift.Sendable {
+public enum ControllerTrackingMode : Swift.CaseIterable, Swift.RawRepresentable, Swift.Sendable {
   case spatialController
   case disabled
   public init?(rawValue: Swift.String)
-  public typealias AllCases = [CloudXRKit.ControllerTrackingMode]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [CloudXRKit.ControllerTrackingMode] {
-    get
-  }
   public var rawValue: Swift.String {
     get
   }
+  public static var allCases: [CloudXRKit.ControllerTrackingMode] {
+    get
+  }
+  public typealias AllCases = [CloudXRKit.ControllerTrackingMode]
+  public typealias RawValue = Swift.String
 }
 public enum NetworkTest : Swift.CustomStringConvertible {
   case disabled
   case enabled(duration: Foundation.TimeInterval)
   case warningOnly(duration: Foundation.TimeInterval)
+  case testOnly(duration: Foundation.TimeInterval)
   public var description: Swift.String {
     get
   }
@@ -542,6 +548,5 @@ extension CloudXRKit.HandTrackingMode : Swift.Hashable {}
 extension CloudXRKit.HandTrackingMode : Swift.RawRepresentable {}
 extension CloudXRKit.ControllerTrackingMode : Swift.Equatable {}
 extension CloudXRKit.ControllerTrackingMode : Swift.Hashable {}
-extension CloudXRKit.ControllerTrackingMode : Swift.RawRepresentable {}
 extension CloudXRKit.Session.SessionQuality : Swift.Hashable {}
 extension CloudXRKit.Session.SessionQuality : Swift.RawRepresentable {}
